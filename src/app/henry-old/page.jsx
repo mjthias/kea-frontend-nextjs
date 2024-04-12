@@ -20,7 +20,7 @@ export default async function HenryPage() {
   const { name } = data;
 
   return (
-    <main className="md:flex max-w-7xl mx-auto">
+    <main className="md:grid md:grid-cols-2 max-w-7xl mx-auto">
       <Image
         src="https://images.unsplash.com/photo-1517849845537-4d257902454a"
         alt="A cute dog"
